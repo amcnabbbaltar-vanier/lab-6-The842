@@ -3,17 +3,26 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     private Animator animator;
-    private ParticleSystem system;
+    private ParticleSystem hitParticles;
+    private AudioSource audioSource;
+
     void Start()
     {
         animator = GetComponent<Animator>();
-        system = GetComponent<ParticleSystem>();
+        hitParticles = GetComponent<ParticleSystem>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void GotHit()
     {
-        animator.ResetTrigger("GotHit");
         animator.SetTrigger("GotHit");
+        hitParticles.Play();
+        audioSource.Play();
+
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.AddScore(1);
+        }
 
     }
 }
