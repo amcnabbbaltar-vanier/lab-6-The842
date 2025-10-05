@@ -1147,11 +1147,39 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 104590613720854500, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 315846556415571366, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 496954283761165414, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 562578813166827941, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2f08286919ee1f846b66651559602228, type: 2}
+    - target: {fileID: 579619065876599878, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2261906896392210326, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072435580544396213, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3152315035349839694, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809449310904789948, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
@@ -1211,11 +1239,16 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 6927177373223834246, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8956697951278062955, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -3390118825416434761, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
     m_RemovedGameObjects:
     - {fileID: 346884820837217090, guid: a28bf3c0516192a4299ae8aab5910ed0, type: 3}
     m_AddedGameObjects: []

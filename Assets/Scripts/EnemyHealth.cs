@@ -30,9 +30,12 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.IncrementScore();
+            GameManager.Instance.LoadNextScene();
+        }
 
-
-        Debug.Log("The enemy has died");
     }
 
     
