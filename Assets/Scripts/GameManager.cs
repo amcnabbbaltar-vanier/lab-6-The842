@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public int score = 0;
     private int targetScore = 4;
-
+    public Text scoreText;
 
     void Awake()
     {
@@ -32,6 +32,10 @@ public class GameManager : MonoBehaviour
         UpdateUI();
     }
 
+    public void IncrementScore()
+    {
+        AddScore(1);
+    }
 
     private void UpdateUI()
     {

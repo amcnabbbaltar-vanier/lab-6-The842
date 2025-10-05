@@ -28,6 +28,7 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
+
     void Die()
     {
         if (GameManager.Instance != null)
